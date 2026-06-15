@@ -137,7 +137,6 @@
   // ---- Quiz starten ----
   function startQuiz(paragraph = null) {
     const shuffle = $('#shuffle-toggle').checked;
-    const count = parseInt($('#question-count').value, 10);
     const recycle = $('#recycle-toggle').checked;
     const errorEl = $('#start-error');
 
@@ -145,7 +144,7 @@
       const numQuestions = engine.init(window.QUESTIONS, {
         paragraph,
         shuffle,
-        count: paragraph ? 0 : count, // bei Paragraph-Auswahl alle Fragen
+        count: 0, // immer alle Fragen
         recycle
       });
       errorEl.style.display = 'none';
@@ -246,15 +245,12 @@
     const submitBtn  = $('#btn-submit');
     const nextBtn    = $('#btn-next');
     const finishBtn  = $('#btn-finish');
-    const restartBtn = $('#btn-restart-from-quiz');
 
     if (q && q.type === 'single') {
       submitBtn.style.display = 'none';
     } else {
       submitBtn.style.display = revealed ? 'none' : 'inline-block';
     }
-
-    restartBtn.style.display = revealed ? 'none' : 'inline-block';
 
     if (revealed) {
       if (engine.isLastQuestion) {

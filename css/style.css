@@ -373,39 +373,7 @@ h3 {
   letter-spacing: 0.04em;
 }
 
-/* Select dropdowns */
-#section-select,
-#question-count {
-  width: 100%;
-  padding: var(--space-3) var(--space-4);
-  font-family: var(--font-body);
-  font-size: 0.9375rem;
-  font-weight: var(--font-weight-normal);
-  color: var(--color-text);
-  background: var(--color-surface);
-  border: 1.5px solid var(--color-border);
-  border-radius: var(--radius-md);
-  appearance: none;
-  -webkit-appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%235b6778' d='M6 8.5L1.5 4h9z'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right var(--space-4) center;
-  background-size: 12px;
-  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
-  cursor: pointer;
-}
-
-#section-select:hover,
-#question-count:hover {
-  border-color: var(--color-primary-light);
-}
-
-#section-select:focus,
-#question-count:focus {
-  outline: none;
-  border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px var(--color-accent-glow);
-}
+/* (Dropdowns entfernt – nur noch Checkboxen und Button) */
 
 /* Checkbox toggle */
 .checkbox-label {
@@ -717,8 +685,7 @@ h3 {
   margin-bottom: var(--space-6);
 }
 
-/* Option items – rendered as labels or divs by JS */
-.options-container label,
+/* Option items – wrapped in .option div, label inside */
 .options-container .option,
 .options-container .option-item {
   display: flex;
@@ -738,7 +705,15 @@ h3 {
   user-select: none;
 }
 
-.options-container label:hover,
+/* Inner label – just flex layout, no box styling (parent handles that) */
+.options-container .option-label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex: 1;
+  cursor: pointer;
+}
+
 .options-container .option:hover,
 .options-container .option-item:hover {
   border-color: var(--color-primary-light);
@@ -746,7 +721,7 @@ h3 {
   box-shadow: 0 1px 4px var(--color-accent-glow);
 }
 
-/* Hide the native radio/checkbox – we style the label container */
+/* Hide the native radio/checkbox – we style the container instead */
 .options-container input[type="radio"],
 .options-container input[type="checkbox"] {
   opacity: 0;
@@ -756,8 +731,7 @@ h3 {
   pointer-events: none;
 }
 
-/* Custom pseudo-radio / pseudo-checkbox */
-.options-container label::before,
+/* Custom pseudo-radio / pseudo-checkbox on the .option container */
 .options-container .option::before,
 .options-container .option-item::before {
   content: "";
@@ -775,35 +749,25 @@ h3 {
     box-shadow var(--transition-fast);
 }
 
-/* For multiple-choice (checkboxes) we'd need a different class,
-   but the simplest approach: check if inside a multi-answer context.
-   We'll default to radio-style circles and override for checkbox.
-   Since JS generates options, we'll assume single-choice uses radio
-   and multi-choice uses checkbox. We style both below. */
-
-/* Multi-select options would use checkbox inputs */
-.options-container input[type="checkbox"] ~ .option-marker,
-.options-container input[type="checkbox"] + *::before {
-  border-radius: var(--radius-sm); /* square for checkbox */
+/* Square for checkbox (multi-select) */
+.options-container .option:has(input[type="checkbox"])::before,
+.options-container .option-item:has(input[type="checkbox"])::before {
+  border-radius: var(--radius-sm);
 }
 
 
 /* ----------------------------------------------------------
    Option States: Selected
    ---------------------------------------------------------- */
-.options-container .option-selected,
-.options-container input:checked + *,
-.options-container .option-selected label,
-.options-container label:has(input:checked) {
+.options-container .option:has(input:checked),
+.options-container .option-item:has(input:checked) {
   border-color: var(--color-primary);
   background: var(--color-primary-lighter);
   box-shadow: 0 0 0 1px rgba(26, 58, 92, 0.08);
 }
 
-.options-container .option-selected::before,
-.options-container input:checked + *::before,
-.options-container .option-selected label::before,
-.options-container label:has(input:checked)::before {
+.options-container .option:has(input:checked)::before,
+.options-container .option-item:has(input:checked)::before {
   border-color: var(--color-primary);
   background: var(--color-primary);
   box-shadow: inset 0 0 0 3px white;
@@ -850,8 +814,7 @@ h3 {
    Option States: Disabled (after answering)
    ---------------------------------------------------------- */
 .options-container .option-disabled,
-.options-container .option-item.option-disabled,
-.options-container label.option-disabled {
+.options-container .option-item.option-disabled {
   cursor: default;
   opacity: 0.75;
   pointer-events: none;
@@ -1352,7 +1315,6 @@ html {
     font-size: 1rem;
   }
 
-  .options-container label,
   .options-container .option,
   .options-container .option-item {
     padding: var(--space-3);

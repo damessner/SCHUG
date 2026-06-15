@@ -17,10 +17,6 @@
       <h1>SchUG-Quiz</h1>
       <p class="subtitle">Teste dein Wissen zum Schulunterrichtsgesetz anhand von praxisnahen Beispielen.</p>
 
-      <div class="disclaimer-banner">
-        <strong>⚠️ Haftungsausschluss:</strong> Dieses Quiz wird mit größter Sorgfalt erstellt, ersetzt aber keine Rechtsberatung. Für die Richtigkeit und Vollständigkeit der Inhalte wird keine Haftung übernommen.
-      </div>
-
       <div class="paragraph-grid" id="paragraph-grid">
         <!-- Paragraph-Karten werden von app.js generiert -->
       </div>
@@ -34,21 +30,15 @@
         </div>
 
         <div class="config-group">
-          <label for="question-count">Anzahl Fragen</label>
-          <select id="question-count">
-            <option value="5">5</option>
-            <option value="10" selected>10</option>
-            <option value="20">20</option>
-            <option value="0">Alle</option>
-          </select>
-        </div>
-
-        <div class="config-group">
           <label class="checkbox-label">
             <input type="checkbox" id="recycle-toggle" checked>
             <span>Lernmodus – falsche Antworten wiederholen</span>
           </label>
         </div>
+      </div>
+
+      <div class="disclaimer-banner">
+        <strong>⚠️ Haftungsausschluss:</strong> Dieses Quiz wird mit größter Sorgfalt erstellt, ersetzt aber keine Rechtsberatung. Für die Richtigkeit und Vollständigkeit der Inhalte wird keine Haftung übernommen.
       </div>
 
       <button id="btn-start" class="btn btn-primary">Quiz starten</button>
@@ -98,7 +88,7 @@
       <button id="btn-submit" class="btn btn-primary" style="display:none">Antwort prüfen</button>
       <button id="btn-next" class="btn btn-secondary" style="display:none">Weiter →</button>
       <button id="btn-finish" class="btn btn-secondary" style="display:none">Quiz beenden →</button>
-      <button id="btn-restart-from-quiz" class="btn btn-ghost" style="display:none">↩ Neu starten</button>
+      <button id="btn-restart-from-quiz" class="btn btn-ghost">← Zurück</button>
     </div>
   </div>
 
