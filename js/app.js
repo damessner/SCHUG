@@ -34,12 +34,14 @@
     const grid = $('#paragraph-grid');
     grid.innerHTML = '';
 
+    const registry = window.PARAGRAPH_REGISTRY || {};
+
     // "Alle" Karte als erstes
-    const allCard = createParagraphCard(null, 'Alle Paragraphen', 'Alle verfügbaren Fragen');
+    const totalQuestions = Object.values(registry).reduce((sum, p) => sum + p.count, 0);
+    const allCard = createParagraphCard(null, 'Alle Paragraphen', `${totalQuestions} Fragen`);
     grid.appendChild(allCard);
 
     // Paragraphen-Karten
-    const registry = window.PARAGRAPH_REGISTRY || {};
     const paragraphs = Object.keys(registry).sort((a, b) => {
       const na = parseInt(a.replace(/\D/g, ''), 10);
       const nb = parseInt(b.replace(/\D/g, ''), 10);
@@ -49,7 +51,7 @@
     paragraphs.forEach(key => {
       const p = registry[key];
       if (p.count === 0) return;
-      const card = createParagraphCard(key, `${key} – ${p.title}`, `${p.count} Fragen · ${p.section}. Abschnitt`);
+      const card = createParagraphCard(key, `${key} – ${p.title}`, `${p.count} Fragen`);
       grid.appendChild(card);
     });
   }
