@@ -275,6 +275,81 @@ h3 {
 }
 
 /* ----------------------------------------------------------
+   Paragraph Grid (Start Screen)
+   ---------------------------------------------------------- */
+.paragraph-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.paragraph-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-4) var(--space-5);
+  cursor: pointer;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  width: 100%;
+}
+
+.paragraph-card:hover {
+  border-color: var(--color-primary-light);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.paragraph-card:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.paragraph-card-title {
+  font-weight: var(--font-weight-semibold);
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+.paragraph-card-desc {
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+}
+
+.paragraph-card-progress {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-top: var(--space-1);
+}
+
+.paragraph-card-progress-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--color-border-light);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.paragraph-card-progress-fill {
+  height: 100%;
+  background: var(--color-primary-light);
+  border-radius: var(--radius-full);
+  transition: width var(--transition-base);
+}
+
+.paragraph-card-progress-label {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+/* ----------------------------------------------------------
    Quiz Config (Start Screen)
    ---------------------------------------------------------- */
 .quiz-config {

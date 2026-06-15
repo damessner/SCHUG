@@ -282,7 +282,7 @@ window.QUESTIONS.push(
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Du übernimmst eine neue Schule als Direktor. Ein erfahrener Kollege sagt: „Bisher hat immer der SGA über Aufnahmen entschieden, du als Direktor hast nichts zu sagen." Was stimmt?",
+    question: "Du übernimmst eine neue Schule als Direktor. Ein erfahrener Kollege sagt: „Bisher hat immer der SGA über Aufnahmen entschieden, du als Direktor hast nichts zu sagen.” Was stimmt?",
     options: [
       "Der SGA entscheidet bei mehr als 10 Anmeldungen pro Platz.",
       "Der Schulleiter entscheidet über die Aufnahme der angemeldeten Aufnahmsbewerber.",
@@ -329,7 +329,7 @@ window.QUESTIONS.push(
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Du wirst Direktor einer land- und forstwirtschaftlichen Lehranstalt. Der bisherige Direktor meint: „§5 gilt für uns natürlich, wir sind eine öffentliche Schule." Liegt er richtig?",
+    question: "Du wirst Direktor einer land- und forstwirtschaftlichen Lehranstalt. Der bisherige Direktor meint: „§5 gilt für uns natürlich, wir sind eine öffentliche Schule.” Liegt er richtig?",
     options: [
       "Ja, weil land- und forstwirtschaftliche Schulen vom SchUG erfasst sind und §5 daher gilt.",
       "Nein, land- und forstwirtschaftliche Schulen sind vom Anwendungsbereich des SchUG ausgenommen.",
@@ -359,7 +359,7 @@ window.QUESTIONS.push(
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Als designierter Direktor einer Berufsschule bereitest du das Aufnahmsverfahren vor. Ein Kollege sagt: „Wir sind von §5 ausgenommen, das gilt nur für allgemeinbildende Schulen." Was stimmt?",
+    question: "Als designierter Direktor einer Berufsschule bereitest du das Aufnahmsverfahren vor. Ein Kollege sagt: „Wir sind von §5 ausgenommen, das gilt nur für allgemeinbildende Schulen.” Was stimmt?",
     options: [
       "Die Berufsschule ist in §5 Abs.1 ausdrücklich ausgenommen, er hat recht.",
       "Die Berufsschule fällt voll unter §5 wie jede andere Schulart auch.",
@@ -453,7 +453,7 @@ window.QUESTIONS.push(
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Ein aufgenommener Schüler an deiner Privatschule (mit Öffentlichkeitsrecht) verlangt einen Bescheid über die Aufnahme „für seine Unterlagen". Was ist deine Antwort?",
+    question: "Ein aufgenommener Schüler an deiner Privatschule (mit Öffentlichkeitsrecht) verlangt einen Bescheid über die Aufnahme „für seine Unterlagen”. Was ist deine Antwort?",
     options: [
       "Du stellst ihm einen Bescheid aus, weil der Schulleiter hoheitlich handelt.",
       "Die Aufnahme erfolgte durch Vertrag, nicht durch Bescheid – du bietest ihm eine schriftliche Vertragsbestätigung an.",
@@ -470,7 +470,7 @@ window.QUESTIONS.push(
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Du legst als Direktor die Fristen für das Aufnahmsverfahren fest. Im Gesetz heißt es, das Verfahren soll „zu Beginn der Hauptferien" beendet sein. Welche Ausnahmen sind vom Gesetz ausdrücklich genannt?",
+    question: "Du legst als Direktor die Fristen für das Aufnahmsverfahren fest. Im Gesetz heißt es, das Verfahren soll „zu Beginn der Hauptferien” beendet sein. Welche Ausnahmen sind vom Gesetz ausdrücklich genannt?",
     options: [
       "Keine, der Zeitpunkt ist absolut verbindlich.",
       "Zwingende Gründe, wie die Ablegung von Prüfungen.",
@@ -521,7 +521,7 @@ window.QUESTIONS.push(
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Eine Mutter aus deinem Sprengel verlangt, dass du ihr Kind aufnehmen musst – „weil wir ja im Sprengel wohnen". Wie ist die Rechtslage?",
+    question: "Eine Mutter aus deinem Sprengel verlangt, dass du ihr Kind aufnehmen musst – „weil wir ja im Sprengel wohnen”. Wie ist die Rechtslage?",
     options: [
       "Die Mutter hat recht: Bei Sprengelschulen besteht grundsätzlich ein Anspruch auf Aufnahme für Kinder aus dem Sprengel.",
       "Die Mutter irrt: Der Schulleiter kann jedes Kind ablehnen, wenn er Zweifel an der Eignung hat.",
@@ -539,7 +539,7 @@ window.QUESTIONS.push(
     question: "In deiner Sprengel-Schule gibt es mehr Anmeldungen aus dem Sprengel als Plätze. Was tust du als Direktor?",
     options: [
       "Du reihst die Kinder nach dem Notendurchschnitt der Volksschule.",
-      "Du reihst nach dem Prinzip „first come, first served\".",
+      "Du reihst nach dem Prinzip „first come, first served\”.",
       "Du reihst nach Alter – ältere Kinder haben Vorrang.",
       "Bei einer Sprengelschule müssen grundsätzlich alle Kinder aus dem Sprengel aufgenommen werden. Bei Überbelag ist die Schulbehörde zu informieren."
     ],
@@ -570,10 +570,10 @@ window.QUESTIONS.push(
     type: "single",
     question: "Deine AHS hat keinen Sprengel – ihr habt weit mehr Anmeldungen als Plätze. Ein Vater verlangt zu wissen, nach welchen Kriterien gereiht wird. Was ist deine Antwort?",
     options: [
-      "„Die Kriterien sind interne Angelegenheit der Schule, dazu geben wir keine Auskunft."",
-      "„Die Reihung erfolgt nach den in der Verordnung festgelegten Kriterien: bisherige Leistungen, Wohnortnähe und allfälliger Geschwisterbesuch."",
-      "„Wir entscheiden nach dem Windhundprinzip – wer zuerst angemeldet hat, bekommt den Platz."",
-      "„Der SGA lost die Plätze unter allen Bewerbern aus.""
+      "„Die Kriterien sind interne Angelegenheit der Schule, dazu geben wir keine Auskunft.”",
+      "„Die Reihung erfolgt nach den in der Verordnung festgelegten Kriterien: bisherige Leistungen, Wohnortnähe und allfälliger Geschwisterbesuch.”",
+      "„Wir entscheiden nach dem Windhundprinzip – wer zuerst angemeldet hat, bekommt den Platz.”",
+      "„Der SGA lost die Plätze unter allen Bewerbern aus.”"
     ],
     correct: [1],
     explanation: "Für Schulen ohne Sprengel schreibt das Gesetz verbindliche Reihungskriterien vor, die für alle Bewerber gleich gelten müssen: bisherige Leistungen, Wohnortnähe und Geschwisterbesuch."
@@ -681,7 +681,7 @@ window.QUESTIONS.push(
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Für das Kriterium „bisherige Leistungen" – welche Unterlagen ziehst du als Direktor heran?",
+    question: "Für das Kriterium „bisherige Leistungen” – welche Unterlagen ziehst du als Direktor heran?",
     options: [
       "Ein Bewerbungsschreiben des Schülers.",
       "Die Schulnachricht oder das Jahreszeugnis der besuchten Schule.",
@@ -696,7 +696,7 @@ window.QUESTIONS.push(
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Ein Vater beschwert sich: „Nur die Noten sollten zählen – Wohnortnähe und Geschwister sind nicht leistungsbezogen, also verfassungswidrig." Hat er recht?",
+    question: "Ein Vater beschwert sich: „Nur die Noten sollten zählen – Wohnortnähe und Geschwister sind nicht leistungsbezogen, also verfassungswidrig.” Hat er recht?",
     options: [
       "Ja, nur leistungsbezogene Kriterien sind verfassungsrechtlich zulässig.",
       "Nein, alle drei Kriterien sind vom Gesetzgeber ausdrücklich vorgegeben und verfassungsrechtlich gedeckt.",
@@ -711,7 +711,7 @@ window.QUESTIONS.push(
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Wie definierst du als Direktor das Kriterium „Wohnortnähe" praktisch? Eine Familie wohnt 3 km entfernt, eine andere 15 km.",
+    question: "Wie definierst du als Direktor das Kriterium „Wohnortnähe” praktisch? Eine Familie wohnt 3 km entfernt, eine andere 15 km.",
     options: [
       "Wohnortnähe zählt nur, wenn der Hauptwohnsitz innerhalb eines 5-km-Radius liegt.",
       "Du kannst ein abgestuftes Punktesystem festlegen (z. B. 0–5 km = 10 Punkte, 5–10 km = 5 Punkte, über 10 km = 0 Punkte).",
@@ -749,14 +749,14 @@ window.QUESTIONS.push(
       "Die Bildungsdirektion entscheidet über Härtefälle."
     ],
     correct: [0],
-    explanation: "Die Reihung erfolgt für jeden Bewerber individuell nach denselben Kriterien. Es gibt keine gesetzliche Grundlage für eine „Zwillingsregel", die eine automatische Mitaufnahme erlauben würde."
+    explanation: "Die Reihung erfolgt für jeden Bewerber individuell nach denselben Kriterien. Es gibt keine gesetzliche Grundlage für eine „Zwillingsregel”, die eine automatische Mitaufnahme erlauben würde."
   },
   {
     id: 47,
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Ein Kind besucht bereits die Vorschulstufe an deiner Schule. Für die 1. Klasse muss es neu aufgenommen werden. Ist das Kriterium „Geschwister" hier anwendbar?",
+    question: "Ein Kind besucht bereits die Vorschulstufe an deiner Schule. Für die 1. Klasse muss es neu aufgenommen werden. Ist das Kriterium „Geschwister” hier anwendbar?",
     options: [
       "Nein, weil das Kind selbst Schüler ist, kein Geschwister.",
       "Ja, der bisherige Besuch der Schule ist ein Grund, das Kind bei der Reihung zu bevorzugen – das ergibt sich aus dem Zweck der Regelung.",
@@ -764,14 +764,14 @@ window.QUESTIONS.push(
       "Ja, aber nur wenn der SGA zustimmt."
     ],
     correct: [2],
-    explanation: "Das Gesetz spricht von „Besuch der Schule durch Geschwister". Der Schüler selbst ist kein Geschwister im Sinne der Regelung. Sein Vorjahresbesuch ist als Kriterium nicht vorgesehen."
+    explanation: "Das Gesetz spricht von „Besuch der Schule durch Geschwister”. Der Schüler selbst ist kein Geschwister im Sinne der Regelung. Sein Vorjahresbesuch ist als Kriterium nicht vorgesehen."
   },
   {
     id: 48,
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Ein Bewerber hat lauter „Sehr gut" im Zeugnis. Ein anderer hat gemischte Noten, wohnt 500 m von der Schule entfernt und hat drei Geschwister an der Schule. Nach welchen Kriterien reihst du?",
+    question: "Ein Bewerber hat lauter „Sehr gut” im Zeugnis. Ein anderer hat gemischte Noten, wohnt 500 m von der Schule entfernt und hat drei Geschwister an der Schule. Nach welchen Kriterien reihst du?",
     options: [
       "Ausschließlich nach den Noten – Leistung hat Vorrang.",
       "Nach allen drei Kriterien in einer transparenten, vorab festgelegten Gewichtung.",
@@ -853,7 +853,7 @@ window.QUESTIONS.push(
       "Ja, sofern die Note vor deiner Entscheidung vorliegt und die Fristen es zulassen.",
       "Nein, der Anmeldeschluss ist absolut – verspätete Unterlagen werden nicht mehr angenommen.",
       "Ja, aber nur wenn der Bewerber ohne diesen Nachweis keinen Platz bekommen hätte.",
-      "Nein, Nachprüfungen zählen grundsätzlich nicht als „bisherige Leistungen"."
+      "Nein, Nachprüfungen zählen grundsätzlich nicht als „bisherige Leistungen”."
     ],
     correct: [0],
     explanation: "Solange die Entscheidung noch nicht gefallen ist, sind aktualisierte Leistungsnachweise zu berücksichtigen. Der Anmeldeschluss betrifft die Anmeldung selbst, nicht Nachreichungen."
@@ -895,12 +895,12 @@ window.QUESTIONS.push(
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Ein Vater beschwert sich telefonisch, dass ein anderer Schüler mit schlechteren Noten aufgenommen wurde, aber „der Direktor ihn kennt". Was ist deine professionelle Reaktion als Direktor?",
+    question: "Ein Vater beschwert sich telefonisch, dass ein anderer Schüler mit schlechteren Noten aufgenommen wurde, aber „der Direktor ihn kennt”. Was ist deine professionelle Reaktion als Direktor?",
     options: [
-      "„Die Entscheidung ist gefallen, wir können nichts mehr machen."",
-      "„Bitte legen Sie Ihre Einwände schriftlich dar. Wir prüfen, ob ein Fehler im Verfahren unterlaufen ist."",
-      "„Das müssen Sie mit dem SGA besprechen."",
-      "„Eine Berufung ist nicht möglich, das Verfahren war korrekt.""
+      "„Die Entscheidung ist gefallen, wir können nichts mehr machen.”",
+      "„Bitte legen Sie Ihre Einwände schriftlich dar. Wir prüfen, ob ein Fehler im Verfahren unterlaufen ist.”",
+      "„Das müssen Sie mit dem SGA besprechen.”",
+      "„Eine Berufung ist nicht möglich, das Verfahren war korrekt.”"
     ],
     correct: [1],
     explanation: "Bei Vorwürfen ist eine sachliche Prüfung angezeigt. Der Vater sollte seine Einwände konkretisieren – dann kann das Verfahren nachvollzogen und dokumentiert werden."
@@ -912,7 +912,7 @@ window.QUESTIONS.push(
     type: "single",
     question: "Mehrere Kinder von Lehrern deiner Schule bewerben sich. Darfst du sie bei der Reihung bevorzugen?",
     options: [
-      "Ja, als „Betriebsangehörige" analog zur Privatwirtschaft.",
+      "Ja, als „Betriebsangehörige” analog zur Privatwirtschaft.",
       "Nein, alle Bewerber müssen nach den gleichen sachlichen Kriterien gereiht werden – eine Bevorzugung wäre sachlich nicht gerechtfertigt.",
       "Ja, wenn der SGA der Bevorzugung zustimmt.",
       "Ja, aber nur wenn die Kinder auch im Sprengel wohnen."
@@ -961,7 +961,7 @@ window.QUESTIONS.push(
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Du möchtest das gesetzliche Kriterium „Geschwister" in deinem Punktesystem doppelt so stark gewichten wie „Wohnortnähe". Ist das als schulautonome Regelung zulässig?",
+    question: "Du möchtest das gesetzliche Kriterium „Geschwister” in deinem Punktesystem doppelt so stark gewichten wie „Wohnortnähe”. Ist das als schulautonome Regelung zulässig?",
     options: [
       "Ja, du darfst die Gewichtung innerhalb der gesetzlichen Kriterien selbst festlegen.",
       "Nein, du darfst die gesetzlichen Kriterien nicht verzerren – sie müssen angemessen und sachgerecht gewichtet sein.",
@@ -984,7 +984,7 @@ window.QUESTIONS.push(
       "Ja, aber nur für die 1. Klasse."
     ],
     correct: [1],
-    explanation: "Würde man eine Mindestnote als absolute Hürde einführen, wäre das keine „Reihung" mehr, sondern eine Vorauswahl. Das Gesetz will eine Reihung aller Bewerber."
+    explanation: "Würde man eine Mindestnote als absolute Hürde einführen, wäre das keine „Reihung” mehr, sondern eine Vorauswahl. Das Gesetz will eine Reihung aller Bewerber."
   },
   {
     id: 62,
@@ -999,7 +999,7 @@ window.QUESTIONS.push(
       "Ja, aber nur mit Zustimmung aller Eltern."
     ],
     correct: [0],
-    explanation: "Das Gesetz nennt „bestehende Schulkooperationen" ausdrücklich als Aspekt, der bei schulautonomen Profilbildungen berücksichtigt werden kann."
+    explanation: "Das Gesetz nennt „bestehende Schulkooperationen” ausdrücklich als Aspekt, der bei schulautonomen Profilbildungen berücksichtigt werden kann."
   },
   {
     id: 63,
@@ -1076,7 +1076,7 @@ window.QUESTIONS.push(
       "Der SGA entscheidet von Fall zu Fall."
     ],
     correct: [1],
-    explanation: "Maßgeblich sind die Kriterien, die zum Zeitpunkt der Entscheidung gelten, sofern sie rechtzeitig veröffentlicht wurden. Bewerber haben keinen Anspruch auf „Altkriterien"."
+    explanation: "Maßgeblich sind die Kriterien, die zum Zeitpunkt der Entscheidung gelten, sofern sie rechtzeitig veröffentlicht wurden. Bewerber haben keinen Anspruch auf „Altkriterien”."
   },
 
   // D3 — Anfechtungen & Fehler
@@ -1115,7 +1115,7 @@ window.QUESTIONS.push(
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Ein Elternteil argumentiert, deine schulautonomen Kriterien seien „willkürlich" und würden bestimmte Bevölkerungsgruppen benachteiligen. Wie gehst du vor?",
+    question: "Ein Elternteil argumentiert, deine schulautonomen Kriterien seien „willkürlich” und würden bestimmte Bevölkerungsgruppen benachteiligen. Wie gehst du vor?",
     options: [
       "Du ignorierst die Beschwerde als unbegründet.",
       "Du prüfst die Kriterien auf sachliche Rechtfertigung und Gleichbehandlung – notfalls holst du rechtliche Beratung ein.",
@@ -1181,7 +1181,7 @@ window.QUESTIONS.push(
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Das Gesetz sagt: Das Aufnahmsverfahren soll „zu Beginn der Hauptferien" beendet sein. Was heißt das für deine Terminplanung als Direktor?",
+    question: "Das Gesetz sagt: Das Aufnahmsverfahren soll „zu Beginn der Hauptferien” beendet sein. Was heißt das für deine Terminplanung als Direktor?",
     options: [
       "Am ersten Ferientag müssen alle Entscheidungen persönlich zugestellt sein.",
       "Bis zum in der Verordnung festgelegten Beginn der Hauptferien soll das Verfahren abgeschlossen sein, sofern keine zwingenden Gründe entgegenstehen.",
@@ -1251,7 +1251,7 @@ window.QUESTIONS.push(
       "Durch Aushang im Klassenzimmer der künftigen Klasse."
     ],
     correct: [1],
-    explanation: "Das Gesetz nennt die Amtstafel als primäres Bekanntgabemittel, lässt aber auch „andere geeignete Weise" zu. Eine persönliche Zustellung an jeden Bewerber ist nicht vorgeschrieben."
+    explanation: "Das Gesetz nennt die Amtstafel als primäres Bekanntgabemittel, lässt aber auch „andere geeignete Weise” zu. Eine persönliche Zustellung an jeden Bewerber ist nicht vorgeschrieben."
   },
   {
     id: 79,
@@ -1260,25 +1260,25 @@ window.QUESTIONS.push(
     type: "single",
     question: "Kann die Bekanntgabe der Aufnahmeentscheidungen auch per E-Mail über ein Schulportal erfolgen?",
     options: [
-      "Ja, „anderer geeigneter Weise" umfasst auch E-Mail oder ein digitales Schulportal.",
+      "Ja, „anderer geeigneter Weise” umfasst auch E-Mail oder ein digitales Schulportal.",
       "Nein, nur die Amtstafel ist gesetzlich als Bekanntgabemittel vorgesehen.",
       "Ja, aber nur mit ausdrücklicher Zustimmung der Eltern.",
       "Nein, E-Mail erfüllt nicht die gesetzlichen Anforderungen an eine Bekanntgabe."
     ],
     correct: [0],
-    explanation: "Der Gesetzeswortlaut „oder in anderer geeigneter Weise" ist bewusst flexibel gehalten. Ein digitales Portal oder E-Mail kann eine geeignete Weise sein, sofern alle Bewerber Zugang haben."
+    explanation: "Der Gesetzeswortlaut „oder in anderer geeigneter Weise” ist bewusst flexibel gehalten. Ein digitales Portal oder E-Mail kann eine geeignete Weise sein, sofern alle Bewerber Zugang haben."
   },
   {
     id: 80,
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Du hast die Aufnahmeentscheidungen an der Amtstafel veröffentlicht. Ein Vater beschwert sich, dass sein Kind abgelehnt wurde und er das „aus dem Aushang erfahren musste, ohne Vorwarnung". Was sagst du?",
+    question: "Du hast die Aufnahmeentscheidungen an der Amtstafel veröffentlicht. Ein Vater beschwert sich, dass sein Kind abgelehnt wurde und er das „aus dem Aushang erfahren musste, ohne Vorwarnung”. Was sagst du?",
     options: [
-      "„Die Amtstafel ist das gesetzlich vorgesehene Bekanntgabemittel – das Verfahren ist damit ordnungsgemäß durchgeführt."",
-      "„Sie haben recht, ich hätte Sie vorher persönlich verständigen müssen."",
-      "„Das Verfahren ist noch nicht abgeschlossen, bitte warten Sie auf einen schriftlichen Bescheid."",
-      "„Das war ein Fehler – in Zukunft verständigen wir alle Eltern vor dem Aushang persönlich.""
+      "„Die Amtstafel ist das gesetzlich vorgesehene Bekanntgabemittel – das Verfahren ist damit ordnungsgemäß durchgeführt.”",
+      "„Sie haben recht, ich hätte Sie vorher persönlich verständigen müssen.”",
+      "„Das Verfahren ist noch nicht abgeschlossen, bitte warten Sie auf einen schriftlichen Bescheid.”",
+      "„Das war ein Fehler – in Zukunft verständigen wir alle Eltern vor dem Aushang persönlich.”"
     ],
     correct: [0],
     explanation: "Die Amtstafel ist das gesetzlich vorgesehene Bekanntgabeorgan. Eine Vorabverständigung ist nicht erforderlich. Der Vater wurde ordnungsgemäß informiert."
@@ -1306,12 +1306,12 @@ window.QUESTIONS.push(
     question: "Du überlegst, die Ergebnisse nur noch über das Schulportal (geschlossener Bereich mit persönlichem Login) bekannt zu geben. Ist das anstelle der Amtstafel zulässig?",
     options: [
       "Nein, die Amtstafel ist zwingend vorgeschrieben – digital ist nur zusätzlich erlaubt.",
-      "Ja, wenn das Schulportal für alle Bewerber gleichermaßen zugänglich ist, ist das eine „andere geeignete Weise".",
+      "Ja, wenn das Schulportal für alle Bewerber gleichermaßen zugänglich ist, ist das eine „andere geeignete Weise”.",
       "Ja, aber zusätzlich zur Amtstafel.",
       "Nein, weil das Schulportal kein amtliches Verkündungsorgan ist."
     ],
     correct: [1],
-    explanation: "Das Gesetz lässt „andere geeignete Weise" ausdrücklich zu. Ein Schulportal mit personalisiertem Login kann eine geeignete Alternative sein, wenn alle Bewerber Zugang haben."
+    explanation: "Das Gesetz lässt „andere geeignete Weise” ausdrücklich zu. Ein Schulportal mit personalisiertem Login kann eine geeignete Alternative sein, wenn alle Bewerber Zugang haben."
   },
   {
     id: 83,
@@ -1356,20 +1356,20 @@ window.QUESTIONS.push(
     type: "single",
     question: "Was muss in der schriftlichen Ablehnung mindestens enthalten sein?",
     options: [
-      "„Ihr Kind wurde nicht aufgenommen, weil die Plätze begrenzt sind."",
+      "„Ihr Kind wurde nicht aufgenommen, weil die Plätze begrenzt sind.”",
       "Eine nachvollziehbare Begründung, die erkennen lässt, warum der Bewerber nicht zum Zug kam – etwa die erreichte Punktzahl im Verhältnis zum letzten aufgenommenen Bewerber.",
-      "„Leider müssen wir Ihnen mitteilen, dass eine Aufnahme nicht möglich ist."",
+      "„Leider müssen wir Ihnen mitteilen, dass eine Aufnahme nicht möglich ist.”",
       "Ein Hinweis auf alternative Schulen in der Umgebung."
     ],
     correct: [1],
-    explanation: "Die Begründung muss so konkret sein, dass der Bewerber die Entscheidung nachvollziehen und auf ihre Rechtmäßigkeit prüfen kann. Eine reine Floskel wie „Platzmangel" reicht nicht."
+    explanation: "Die Begründung muss so konkret sein, dass der Bewerber die Entscheidung nachvollziehen und auf ihre Rechtmäßigkeit prüfen kann. Eine reine Floskel wie „Platzmangel” reicht nicht."
   },
   {
     id: 86,
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Du lehnst einen Schüler ab und schreibst als Begründung: „Es stehen nicht genügend Plätze zur Verfügung." Ein Anwalt der Familie beanstandet die Begründung als zu wenig konkret. Hat er recht?",
+    question: "Du lehnst einen Schüler ab und schreibst als Begründung: „Es stehen nicht genügend Plätze zur Verfügung.” Ein Anwalt der Familie beanstandet die Begründung als zu wenig konkret. Hat er recht?",
     options: [
       "Nein, die Angabe von Platzmangel ist eine ausreichende Begründung.",
       "Ja, die Begründung muss so konkret sein, dass der Bewerber die Entscheidung überprüfen kann – etwa durch Mitteilung des Reihungsrangs.",
@@ -1377,7 +1377,7 @@ window.QUESTIONS.push(
       "Ja, aber nur wenn die Schule keinen Sprengel hat."
     ],
     correct: [1],
-    explanation: "„Platzmangel" allein ist zu vage. Der Bewerber muss erkennen können, warum andere Bewerber bevorzugt wurden. Konkrete Angaben zur Reihung (Punktzahl, Rang) sind erforderlich."
+    explanation: "„Platzmangel” allein ist zu vage. Der Bewerber muss erkennen können, warum andere Bewerber bevorzugt wurden. Konkrete Angaben zur Reihung (Punktzahl, Rang) sind erforderlich."
   },
   {
     id: 87,
@@ -1506,7 +1506,7 @@ window.QUESTIONS.push(
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Als Direktor erfährst du, dass ein abgelehnter Bewerber das Gerücht verbreitet: „Der Direktor nimmt nur Kinder von Freunden auf." Wie reagierst du professionell?",
+    question: "Als Direktor erfährst du, dass ein abgelehnter Bewerber das Gerücht verbreitet: „Der Direktor nimmt nur Kinder von Freunden auf.” Wie reagierst du professionell?",
     options: [
       "Du ignorierst es – Gerüchte gehören zum Berufsrisiko.",
       "Du dokumentierst das Verfahren, legst die Reihung transparent offen und bietest ein klärendes Gespräch an.",
@@ -1526,7 +1526,7 @@ window.QUESTIONS.push(
     section: 2,
     paragraph: "§5",
     type: "single",
-    question: "Du bist Direktor einer Privatschule mit Öffentlichkeitsrecht. Ein Schüler erfüllt die schulrechtlichen Voraussetzungen nicht, aber dein Schulerhalter sagt: „Wir machen einfach einen Aufnahmevertrag – wir sind Privatrecht, das geht." Kann der Vertrag rechtswirksam geschlossen werden?",
+    question: "Du bist Direktor einer Privatschule mit Öffentlichkeitsrecht. Ein Schüler erfüllt die schulrechtlichen Voraussetzungen nicht, aber dein Schulerhalter sagt: „Wir machen einfach einen Aufnahmevertrag – wir sind Privatrecht, das geht.” Kann der Vertrag rechtswirksam geschlossen werden?",
     options: [
       "Ja, der Schulerhalter kann im Rahmen der Privatautonomie jeden Vertrag abschließen.",
       "Nein, §5 Abs.6 stellt klar: Ein Aufnahmevertrag ist rechtsunwirksam, wenn die schulrechtlichen Voraussetzungen nicht erfüllt sind.",
@@ -1594,7 +1594,7 @@ window.QUESTIONS.push(
       "Die Rechtsunwirksamkeit muss durch die Bildungsdirektion mit Bescheid festgestellt werden."
     ],
     correct: [1],
-    explanation: "Das Gesetz spricht von „rechtsunwirksam", nicht von „anfechtbar". Der Vertrag ist ex lege unwirksam, ohne dass es einer behördlichen Feststellung bedarf."
+    explanation: "Das Gesetz spricht von „rechtsunwirksam”, nicht von „anfechtbar”. Der Vertrag ist ex lege unwirksam, ohne dass es einer behördlichen Feststellung bedarf."
   },
   {
     id: 101,
@@ -1603,10 +1603,10 @@ window.QUESTIONS.push(
     type: "single",
     question: "Du wechselst von einer öffentlichen Schule an eine Privatschule mit Öffentlichkeitsrecht. Eine Mutter verlangt, dass du ihre Tochter per Bescheid aufnimmst, so wie sie es von der öffentlichen Schule gewohnt war. Was sagst du?",
     options: [
-      "„Ja, als Schulleiter habe ich die gleichen Befugnisse wie an einer öffentlichen Schule."",
-      "„Die Aufnahme erfolgt durch Vertrag zwischen dem Schüler und dem Privatschulerhalter, nicht durch Bescheid. Sie bekommen eine schriftliche Vertragsbestätigung."",
-      "„Das muss die Bildungsdirektion machen."",
-      "„Einen Bescheid gibt es erst nach dem ersten Semester.""
+      "„Ja, als Schulleiter habe ich die gleichen Befugnisse wie an einer öffentlichen Schule.”",
+      "„Die Aufnahme erfolgt durch Vertrag zwischen dem Schüler und dem Privatschulerhalter, nicht durch Bescheid. Sie bekommen eine schriftliche Vertragsbestätigung.”",
+      "„Das muss die Bildungsdirektion machen.”",
+      "„Einen Bescheid gibt es erst nach dem ersten Semester.”"
     ],
     correct: [1],
     explanation: "An Privatschulen ist der Aufnahmevertrag die Rechtsgrundlage, nicht der Bescheid. Du handelst nicht hoheitlich, sondern privatrechtlich."
@@ -1656,7 +1656,7 @@ window.QUESTIONS.push(
     question: "Ein Schüler der 4. Klasse VS möchte im April die Aufnahmsprüfung für das Gymnasium machen. Er hat das Schuljahr noch nicht abgeschlossen. Darf er zur Prüfung antreten?",
     options: [
       "Nein, der Abschluss der 4. Klasse VS muss vor der Prüfung vorliegen.",
-      "Ja, weil der Schulstufenabschluss von den „anderen Aufnahmevoraussetzungen" ausgenommen ist – er darf vor Abschluss antreten.",
+      "Ja, weil der Schulstufenabschluss von den „anderen Aufnahmevoraussetzungen” ausgenommen ist – er darf vor Abschluss antreten.",
       "Ja, aber nur mit Genehmigung der Bildungsdirektion.",
       "Nein, die Prüfung darf erst nach Ausstellung des Jahreszeugnisses stattfinden."
     ],
@@ -1686,7 +1686,7 @@ window.QUESTIONS.push(
     question: "Ein Bewerber für deine BHS hat alle Voraussetzungen erfüllt (Alter, Sprachkenntnisse, bisherige Schulbildung) – nur das 9. Schuljahr hat er noch nicht abgeschlossen. Kann er die Aufnahmsprüfung machen?",
     options: [
       "Nein, weil der Abschluss des 9. Schuljahres die zentrale Voraussetzung für die BHS ist.",
-      "Ja, weil §6 den fehlenden Schulstufenabschluss von den „anderen" Voraussetzungen ausdrücklich ausnimmt.",
+      "Ja, weil §6 den fehlenden Schulstufenabschluss von den „anderen” Voraussetzungen ausdrücklich ausnimmt.",
       "Ja, aber nur mit einer Ausnahmegenehmigung der Bildungsdirektion.",
       "Nein, die Prüfung darf erst nach der Ausstellung des Jahreszeugnisses stattfinden."
     ],
@@ -1700,7 +1700,7 @@ window.QUESTIONS.push(
     type: "single",
     question: "Ein Bewerber kann den erfolgreichen Abschluss der 8. Schulstufe nicht nachweisen (kein Zeugnis). Alle anderen Unterlagen sind vollständig. Darfst du ihn zur Aufnahmsprüfung zulassen?",
     options: [
-      "Ja, der fehlende Nachweis des Schulstufenabschlusses ist von den „anderen Voraussetzungen" ausgenommen.",
+      "Ja, der fehlende Nachweis des Schulstufenabschlusses ist von den „anderen Voraussetzungen” ausgenommen.",
       "Nein, als Schulleiter musst du prüfen, ob alle Voraussetzungen erfüllt sind – ohne Nachweis des Schulstufenabschlusses keine Zulassung zur Prüfung.",
       "Ja, die Prüfung stellt die Eignung fest, der Nachweis kann nachgereicht werden.",
       "Nein, aber die Bildungsdirektion kann ausnahmsweise die Zulassung erteilen."
@@ -1731,19 +1731,19 @@ window.QUESTIONS.push(
     question: "Ein Bewerber aus dem Ausland hat alle Dokumente dabei, nur das Jahreszeugnis ist nicht amtlich beglaubigt. Darfst du ihn trotzdem zur Aufnahmsprüfung zulassen?",
     options: [
       "Ja, die fehlende Beglaubigung betrifft nicht die Aufnahmevoraussetzungen selbst.",
-      "Nein, weil beglaubigte Schuldokumente zu den „anderen Aufnahmevoraussetzungen" gehören – ohne vollständige Nachweise keine Zulassung.",
+      "Nein, weil beglaubigte Schuldokumente zu den „anderen Aufnahmevoraussetzungen” gehören – ohne vollständige Nachweise keine Zulassung.",
       "Ja, die Beglaubigung kann nach der Prüfung nachgereicht werden.",
       "Nein, aber du kannst eine Eignungsprüfung anordnen."
     ],
     correct: [1],
-    explanation: "Die „anderen Aufnahmevoraussetzungen" umfassen auch die formellen Nachweise. Ist ein erforderliches Dokument nicht in der vorgeschriebenen Form (beglaubigt) vorgelegt, ist die Voraussetzung nicht erfüllt."
+    explanation: "Die „anderen Aufnahmevoraussetzungen” umfassen auch die formellen Nachweise. Ist ein erforderliches Dokument nicht in der vorgeschriebenen Form (beglaubigt) vorgelegt, ist die Voraussetzung nicht erfüllt."
   },
   {
     id: 110,
     section: 3,
     paragraph: "§6",
     type: "single",
-    question: "Ein 17-jähriger hat die 9. Schulstufe abgeschlossen, aber sehr schlechte Noten. Ein Lehrer sagt: „Den lassen wir gar nicht erst zur Prüfung zu, der schafft das nie." Darfst du ihn abweisen?",
+    question: "Ein 17-jähriger hat die 9. Schulstufe abgeschlossen, aber sehr schlechte Noten. Ein Lehrer sagt: „Den lassen wir gar nicht erst zur Prüfung zu, der schafft das nie.” Darfst du ihn abweisen?",
     options: [
       "Ja, der Schulleiter kann Bewerber ohne ausreichende Eignung von der Prüfung ausschließen.",
       "Nein, wenn er die Aufnahmevoraussetzungen erfüllt, musst du ihn zur Prüfung zulassen – die Eignung wird in der Prüfung selbst festgestellt.",
@@ -1860,7 +1860,7 @@ window.QUESTIONS.push(
       "Ja, weil die Prüfungskommission eine andere ist."
     ],
     correct: [1],
-    explanation: "Das Verbot gilt für „dieselbe Schulart" – nicht für dieselbe Schule. Ein neuerlicher Prüfungsantritt an einer anderen Schule derselben Schulart ist eine unzulässige Wiederholung."
+    explanation: "Das Verbot gilt für „dieselbe Schulart” – nicht für dieselbe Schule. Ein neuerlicher Prüfungsantritt an einer anderen Schule derselben Schulart ist eine unzulässige Wiederholung."
   },
   {
     id: 118,
@@ -1869,7 +1869,7 @@ window.QUESTIONS.push(
     type: "single",
     question: "Ein Bewerber ist bei der Aufnahmsprüfung für die AHS durchgefallen. Darf er im selben Schuljahr die Eignungsprüfung für eine Sport-AHS (besonderer Schwerpunkt) ablegen?",
     options: [
-      "Nein, der Begriff „dieselbe Schulart" umfasst alle Formen der AHS.",
+      "Nein, der Begriff „dieselbe Schulart” umfasst alle Formen der AHS.",
       "Das ist eine Grauzone: Wenn die Eignungsprüfung einen völlig anderen Prüfungsstoff und Zweck hat (Sporteignung), könnte sie zulässig sein – die Abgrenzung zur Aufnahmsprüfung ist aber entscheidend.",
       "Ja, ohne jede Einschränkung.",
       "Nein, einmal durchgefallen heißt Sperre für alle Prüfungen im selben Jahr."
@@ -1905,7 +1905,7 @@ window.QUESTIONS.push(
       "Nein, er muss bis zum nächsten Schuljahr warten."
     ],
     correct: [1],
-    explanation: "Das Wiederholungsverbot des §6 Abs.2 bezieht sich auf „dieselbe Schulart". Der Wechsel von AHS zu BHS betrifft eine andere Schulart und fällt daher nicht unter das Verbot."
+    explanation: "Das Wiederholungsverbot des §6 Abs.2 bezieht sich auf „dieselbe Schulart”. Der Wechsel von AHS zu BHS betrifft eine andere Schulart und fällt daher nicht unter das Verbot."
   },
   {
     id: 121,
@@ -1935,14 +1935,14 @@ window.QUESTIONS.push(
       "Nein, der Prüfungstermin ist absolut verbindlich."
     ],
     correct: [1],
-    explanation: "Das Gesetz verbietet die Wiederholung einer „abgelegten" Prüfung. Wer nicht angetreten ist, hat keine Prüfung abgelegt. Der Antritt zu einem späteren Termin ist daher keine Wiederholung, sondern der erste Antritt."
+    explanation: "Das Gesetz verbietet die Wiederholung einer „abgelegten” Prüfung. Wer nicht angetreten ist, hat keine Prüfung abgelegt. Der Antritt zu einem späteren Termin ist daher keine Wiederholung, sondern der erste Antritt."
   },
   {
     id: 123,
     section: 3,
     paragraph: "§6",
     type: "single",
-    question: "Ein Bewerber besteht die Aufnahmsprüfung an deiner AHS mit der Note „Befriedigend". Er möchte die Prüfung an einer anderen AHS wiederholen, um eine bessere Note für die Reihung zu erzielen. Darf er das?",
+    question: "Ein Bewerber besteht die Aufnahmsprüfung an deiner AHS mit der Note „Befriedigend”. Er möchte die Prüfung an einer anderen AHS wiederholen, um eine bessere Note für die Reihung zu erzielen. Darf er das?",
     options: [
       "Ja, als bestandene Prüfung darf sie jederzeit wiederholt werden.",
       "Nein, die einmal abgelegte Aufnahmsprüfung darf für dieselbe Schulart im selben Schuljahr nicht wiederholt werden – das gilt auch für bestandene Prüfungen.",
@@ -1950,7 +1950,7 @@ window.QUESTIONS.push(
       "Ja, wenn er bei der ersten Prüfung schriftlich auf den Platz verzichtet."
     ],
     correct: [1],
-    explanation: "Das Gesetz stellt allein auf die Tatsache der „abgelegten" Prüfung ab, nicht auf das Ergebnis. Eine Wiederholung zur Notenverbesserung ist daher unzulässig."
+    explanation: "Das Gesetz stellt allein auf die Tatsache der „abgelegten” Prüfung ab, nicht auf das Ergebnis. Eine Wiederholung zur Notenverbesserung ist daher unzulässig."
   },
   {
     id: 124,
@@ -2008,7 +2008,7 @@ window.QUESTIONS.push(
     section: 3,
     paragraph: "§7",
     type: "single",
-    question: "Du planst als Direktor die Aufnahmsprüfungen für deine AHS. Ein Lehrer schlägt vor, heuer statt der standardisierten schriftlichen Prüfung ein mündliches Gespräch durchzuführen, das sei „aussagekräftiger". Darfst du das entscheiden?",
+    question: "Du planst als Direktor die Aufnahmsprüfungen für deine AHS. Ein Lehrer schlägt vor, heuer statt der standardisierten schriftlichen Prüfung ein mündliches Gespräch durchzuführen, das sei „aussagekräftiger”. Darfst du das entscheiden?",
     options: [
       "Ja, als Schulleiter bestimmst du die Prüfungsform.",
       "Nein, die Prüfungsform wird vom Bundesminister durch Verordnung bestimmt.",
@@ -2068,7 +2068,7 @@ window.QUESTIONS.push(
     section: 3,
     paragraph: "§7",
     type: "single",
-    question: "Ein Lehrer fragt: „Die Eignungsprüfung im Fach Bewegung und Sport – gilt da die gleiche Verordnung wie für die schriftliche Aufnahmsprüfung?" Was sagst du als Direktor?",
+    question: "Ein Lehrer fragt: „Die Eignungsprüfung im Fach Bewegung und Sport – gilt da die gleiche Verordnung wie für die schriftliche Aufnahmsprüfung?” Was sagst du als Direktor?",
     options: [
       "Ja, die Verordnung des Ministers gilt für Aufnahms- und Eignungsprüfungen gleichermaßen.",
       "Die Verordnung kann für Eignungsprüfungen eigene Formen und Gebiete vorsehen, die auf die spezifische Eignung abgestimmt sind.",
@@ -2143,7 +2143,7 @@ window.QUESTIONS.push(
     section: 3,
     paragraph: "§7",
     type: "single",
-    question: "Eine Lehrerin möchte die Aufnahmsprüfung als Projektarbeit statt als schriftliche Prüfung gestalten – das sei „zeitgemäßer". Die Verordnung sieht eine schriftliche Prüfung vor. Darf sie das?",
+    question: "Eine Lehrerin möchte die Aufnahmsprüfung als Projektarbeit statt als schriftliche Prüfung gestalten – das sei „zeitgemäßer”. Die Verordnung sieht eine schriftliche Prüfung vor. Darf sie das?",
     options: [
       "Ja, pädagogische Innovation geht der Verordnung vor.",
       "Nein, die Prüfungsform ist durch die Verordnung abschließend bestimmt. Eine Projektarbeit ist nur zulässig, wenn die Verordnung sie vorsieht.",
@@ -2160,7 +2160,7 @@ window.QUESTIONS.push(
     section: 3,
     paragraph: "§7",
     type: "single",
-    question: "Du bereitest als Direktor die Aufnahmsprüfungen vor. Ein Lehrer sagt: „Ob ich als Prüfer mitmache, entscheide ich selbst." Hat er recht?",
+    question: "Du bereitest als Direktor die Aufnahmsprüfungen vor. Ein Lehrer sagt: „Ob ich als Prüfer mitmache, entscheide ich selbst.” Hat er recht?",
     options: [
       "Ja, die Tätigkeit als Prüfer ist freiwillig.",
       "Nein, der Schulleiter bestellt die Prüfer – die Lehrkräfte sind zur Übernahme dieser Aufgabe verpflichtet.",
@@ -2208,12 +2208,12 @@ window.QUESTIONS.push(
     question: "Für die Eignungsprüfung (Sport) brauchst du einen externen Trainer, weil keine schuleigene Lehrkraft die nötige Spezialqualifikation hat. Darfst du Externe als Prüfer bestellen?",
     options: [
       "Nein, nur Lehrer der eigenen Schule dürfen als Prüfer bestellt werden.",
-      "Ja, das Gesetz spricht von „Lehrern" – das umfasst auch Lehrkräfte anderer Schulen, die du als Prüfer bestellen kannst.",
+      "Ja, das Gesetz spricht von „Lehrern” – das umfasst auch Lehrkräfte anderer Schulen, die du als Prüfer bestellen kannst.",
       "Ja, aber nur wenn der SGA zustimmt.",
       "Nein, externe Prüfer müssen von der Bildungsdirektion bestellt werden."
     ],
     correct: [1],
-    explanation: "Der Begriff „Lehrer" in §7 Abs.2 ist nicht auf die eigene Schule beschränkt. Du kannst geeignete Lehrkräfte anderer Schulen als Prüfer bestellen."
+    explanation: "Der Begriff „Lehrer” in §7 Abs.2 ist nicht auf die eigene Schule beschränkt. Du kannst geeignete Lehrkräfte anderer Schulen als Prüfer bestellen."
   },
   {
     id: 141,
@@ -2253,12 +2253,12 @@ window.QUESTIONS.push(
     question: "Wie viele Prüfer musst du für eine Aufnahmsprüfung bestellen? Reicht ein einziger Prüfer für alle Fächer?",
     options: [
       "Ja, ein Prüfer kann alle Prüfungsgebiete allein abdecken.",
-      "Das Gesetz spricht von der „erforderlichen Zahl" – für jedes Prüfungsgebiet ist zumindest ein Prüfer zu bestellen.",
+      "Das Gesetz spricht von der „erforderlichen Zahl” – für jedes Prüfungsgebiet ist zumindest ein Prüfer zu bestellen.",
       "Es müssen mindestens drei Prüfer sein, unabhängig von der Zahl der Gebiete.",
       "Die Anzahl legt die Bildungsdirektion fest."
     ],
     correct: [1],
-    explanation: "Die „erforderliche Zahl" richtet sich nach den Prüfungsgebieten. Für jedes Gebiet sollte zumindest ein fachlich zuständiger Prüfer bestellt werden."
+    explanation: "Die „erforderliche Zahl” richtet sich nach den Prüfungsgebieten. Für jedes Gebiet sollte zumindest ein fachlich zuständiger Prüfer bestellt werden."
   },
   {
     id: 144,
@@ -2312,7 +2312,7 @@ window.QUESTIONS.push(
     section: 3,
     paragraph: "§7",
     type: "single",
-    question: "Ein Prüfer kommt zu dir und sagt: „Ich habe die Aufgaben für mein Gebiet schon fertig vorbereitet, das kann ich allein entscheiden." Darf er das?",
+    question: "Ein Prüfer kommt zu dir und sagt: „Ich habe die Aufgaben für mein Gebiet schon fertig vorbereitet, das kann ich allein entscheiden.” Darf er das?",
     options: [
       "Ja, jeder Prüfer stellt die Aufgaben für sein Gebiet eigenverantwortlich.",
       "Nein, die Aufgabenstellungen müssen in einer Konferenz aller Prüfer unter dem Vorsitz des Schulleiters gemeinsam festgesetzt werden.",
@@ -2387,7 +2387,7 @@ window.QUESTIONS.push(
     section: 3,
     paragraph: "§7",
     type: "single",
-    question: "Ein Prüfer möchte einen externen Experten (Universitätsprofessor) zur Prüferkonferenz einladen, „um die Qualität zu sichern". Darfst du das zulassen?",
+    question: "Ein Prüfer möchte einen externen Experten (Universitätsprofessor) zur Prüferkonferenz einladen, „um die Qualität zu sichern”. Darfst du das zulassen?",
     options: [
       "Ja, du kannst als Vorsitzender Gäste ohne Stimmrecht zur Konferenz zulassen.",
       "Nein, die Prüferkonferenz ist ein geschlossenes Gremium der bestellten Prüfer.",
@@ -2402,7 +2402,7 @@ window.QUESTIONS.push(
     section: 3,
     paragraph: "§7",
     type: "single",
-    question: "Ein Prüfer stellt die Aufgaben für sein Fach allein fertig, bevor die Konferenz stattfindet. In der Konferenz sagt er: „Hier sind meine Aufgaben, wir müssen sie nur noch absegnen." Ist das Vorgehen korrekt?",
+    question: "Ein Prüfer stellt die Aufgaben für sein Fach allein fertig, bevor die Konferenz stattfindet. In der Konferenz sagt er: „Hier sind meine Aufgaben, wir müssen sie nur noch absegnen.” Ist das Vorgehen korrekt?",
     options: [
       "Ja, die Konferenz dient nur der formalen Bestätigung der fachlichen Vorarbeit.",
       "Nein, die Aufgaben müssen in der Konferenz gemeinsam festgesetzt werden – nicht nur abgesegnet.",
@@ -2410,7 +2410,7 @@ window.QUESTIONS.push(
       "Ja, wenn der Prüfer der Fachkoordinator ist."
     ],
     correct: [1],
-    explanation: "Die Konferenz dient der gemeinsamen Festsetzung der Aufgaben. Ein reines „Absegnen" von Einzelarbeit entspricht nicht dem Zweck der gemeinsamen Beschlussfassung."
+    explanation: "Die Konferenz dient der gemeinsamen Festsetzung der Aufgaben. Ein reines „Absegnen” von Einzelarbeit entspricht nicht dem Zweck der gemeinsamen Beschlussfassung."
   },
   {
     id: 154,
@@ -2447,7 +2447,7 @@ window.QUESTIONS.push(
     section: 3,
     paragraph: "§7",
     type: "single",
-    question: "Ein Prüfer weigert sich, in der Konferenz seine Aufgaben offenzulegen, weil er „Angst vor Weitergabe" hat. Darfst du als Vorsitzender auf Offenlegung bestehen?",
+    question: "Ein Prüfer weigert sich, in der Konferenz seine Aufgaben offenzulegen, weil er „Angst vor Weitergabe” hat. Darfst du als Vorsitzender auf Offenlegung bestehen?",
     options: [
       "Nein, der Prüfer kann seine Aufgaben bis zur Prüfung geheim halten.",
       "Ja, die Aufgaben müssen in der Konferenz gemeinsam festgesetzt werden – dafür müssen sie offengelegt werden.",
@@ -2458,3 +2458,28 @@ window.QUESTIONS.push(
     explanation: "Die Festsetzung in der Konferenz setzt die Offenlegung der Aufgaben voraus. Ein Prüfer kann sich nicht unter Berufung auf Geheimhaltung der gemeinsamen Beschlussfassung entziehen."
   }
 );
+
+// ===================================================================
+//  Paragraph-Registry: Metadaten für die Startseiten-Kacheln
+// ===================================================================
+window.PARAGRAPH_REGISTRY = (function () {
+  const titles = {
+    "§1": "Geltungsbereich",
+    "§5": "Aufnahmsverfahren",
+    "§6": "Aufnahms- und Eignungsprüfungen – Grundlagen",
+    "§7": "Durchführung der Prüfungen"
+  };
+  const reg = {};
+  window.QUESTIONS.forEach(function (q) {
+    if (!q.paragraph) return;
+    if (!reg[q.paragraph]) {
+      reg[q.paragraph] = {
+        title: titles[q.paragraph] || "",
+        count: 0,
+        section: q.section
+      };
+    }
+    reg[q.paragraph].count++;
+  });
+  return reg;
+})();

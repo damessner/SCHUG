@@ -35,13 +35,16 @@ class QuizEngine {
   init(allQuestions, opts = {}) {
     this.reset();
 
-    const { section = 'all', shuffle = true, count = 0, recycle = false } = opts;
+    const { section = 'all', paragraph = null, shuffle = true, count = 0, recycle = false } = opts;
     this.recycleMode = recycle;
 
     // Filtern
-    let pool = section === 'all'
-      ? [...allQuestions]
-      : allQuestions.filter(q => q.section === Number(section));
+    let pool = [...allQuestions];
+    if (paragraph) {
+      pool = pool.filter(q => q.paragraph === paragraph);
+    } else if (section !== 'all') {
+      pool = pool.filter(q => q.section === Number(section));
+    }
 
     if (pool.length === 0) {
       throw new Error(`Keine Fragen für Abschnitt "${section}" gefunden.`);
@@ -235,6 +238,92 @@ class QuizEngine {
     if (percent >= 50) return 'Befriedigend 👌';
     if (percent >= 25) return 'Genügend 📖';
     return 'Du solltest nochmal üben 📚';
+  }
+
+  // ---- Persistierter Fortschritt (localStorage) ----
+
+  /**
+   * Lädt den gespeicherten Fortschritt.
+   * @returns {object} { §1: { correct: Set<id>, wrong: Set<id> }, … }
+   */
+  static loadProgress() {
+    try {
+      const raw = localStorage.getItem('schug-progress');
+      if (!raw) return {};
+      const data = JSON.parse(raw);
+      // Konvertiere Arrays zurück zu Sets
+      for (const key of Object.keys(data)) {
+        data[key].correct = new Set(data[key].correct || []);
+        data[key].wrong = new Set(data[key].wrong || []);
+      }
+      return data;
+    } catch {
+      return {};
+    }
+  }
+
+  /**
+   * Speichert eine beantwortete Frage im Fortschritt.
+   * @param {string} paragraph  – z.B. "§5"
+   * @param {number} questionId – Frage-ID
+   * @param {boolean} correct   – richtig?
+   */
+  static saveAnswer(paragraph, questionId, correct) {
+    const progress = QuizEngine.loadProgress();
+    if (!progress[paragraph]) {
+      progress[paragraph] = { correct: new Set(), wrong: new Set() };
+    }
+    // Aus beiden Sets entfernen (falls schon anderswo gespeichert)
+    progress[paragraph].correct.delete(questionId);
+    progress[paragraph].wrong.delete(questionId);
+    // Ins richtige Set eintragen
+    if (correct) {
+      progress[paragraph].correct.add(questionId);
+    } else {
+      progress[paragraph].wrong.add(questionId);
+    }
+    // Für JSON serialisierbar machen (Set → Array)
+    const store = {};
+    for (const key of Object.keys(progress)) {
+      store[key] = {
+        correct: [...progress[key].correct],
+        wrong: [...progress[key].wrong]
+      };
+    }
+    localStorage.setItem('schug-progress', JSON.stringify(store));
+  }
+
+  /**
+   * Gibt den Fortschritt für einen Paragraphen zurück.
+   * @param {string} paragraph
+   * @returns {{ correct: number, wrong: number, total: number }}
+   */
+  static getParagraphProgress(paragraph) {
+    const progress = QuizEngine.loadProgress();
+    const p = progress[paragraph];
+    if (!p) return { correct: 0, wrong: 0, total: 0 };
+    return {
+      correct: p.correct.size,
+      wrong: p.wrong.size,
+      total: p.correct.size + p.wrong.size
+    };
+  }
+
+  /**
+   * Gibt den Fortschritt für alle Paragraphen zurück.
+   * @returns {object} { "§1": { correct, wrong, total }, … }
+   */
+  static getAllProgress() {
+    const progress = QuizEngine.loadProgress();
+    const result = {};
+    for (const key of Object.keys(progress)) {
+      result[key] = {
+        correct: progress[key].correct.size,
+        wrong: progress[key].wrong.size,
+        total: progress[key].correct.size + progress[key].wrong.size
+      };
+    }
+    return result;
   }
 }
 
