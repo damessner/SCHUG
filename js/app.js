@@ -13,6 +13,7 @@
   const $$ = (sel) => document.querySelectorAll(sel);
 
   const engine = new QuizEngine();
+  let _currentParagraphFilter = null; // speichert ob ein bestimmter Paragraph gefiltert wurde
 
   // Screens
   const screens = {
@@ -141,6 +142,7 @@
     const errorEl = $('#start-error');
 
     try {
+      _currentParagraphFilter = paragraph;
       const numQuestions = engine.init(window.QUESTIONS, {
         paragraph,
         shuffle,
@@ -167,10 +169,14 @@
       return;
     }
 
-    // Header
-    $('#section-label').textContent = q.paragraph
-      ? `${q.section}. Abschnitt · ${q.paragraph}`
-      : `${q.section}. Abschnitt`;
+    // Header – bei "Alle Paragraphen" generisch, sonst Paragraphen-spezifisch
+    if (!_currentParagraphFilter) {
+      $('#section-label').textContent = 'Alle Paragraphen';
+    } else {
+      $('#section-label').textContent = q.paragraph
+        ? `${q.section}. Abschnitt · ${q.paragraph}`
+        : `${q.section}. Abschnitt`;
+    }
     let progressText = `Frage ${progress.current} / ${progress.total}`;
     if (progress.recycledCount > 0) {
       progressText += ` (+${progress.recycledCount} wiederholt)`;
