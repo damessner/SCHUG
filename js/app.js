@@ -109,7 +109,8 @@
 
   // ---- Event-Bindung ----
   function bindEvents() {
-    // Start – kein globaler Start-Button mehr, Karten haben eigene Klicks
+    // Globaler "Quiz starten"-Button – startet Quiz über alle Paragraphen
+    $('#btn-start').addEventListener('click', () => startQuiz());
 
     // Quiz
     $('#btn-submit').addEventListener('click', handleSubmit);

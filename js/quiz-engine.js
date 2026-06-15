@@ -40,14 +40,15 @@ class QuizEngine {
 
     // Filtern
     let pool = [...allQuestions];
-    if (paragraph) {
+    if (paragraph && paragraph !== 'all') {
       pool = pool.filter(q => q.paragraph === paragraph);
     } else if (section !== 'all') {
       pool = pool.filter(q => q.section === Number(section));
     }
 
     if (pool.length === 0) {
-      throw new Error(`Keine Fragen für Abschnitt "${section}" gefunden.`);
+      const label = paragraph ? `Paragraphen "${paragraph}"` : `Abschnitt "${section}"`;
+      throw new Error(`Keine Fragen für ${label} gefunden.`);
     }
 
     // Mischen
